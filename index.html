@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Computadora Sin Misterios 40+ — Computadora, Word y Excel con mapas visuales</title>
+<meta name="description" content="Más de 150 mapas visuales para aprender a usar la computadora, Word, Excel, el teclado y los archivos — aunque hoy solo sepas lo básico.">
+<meta property="og:title" content="Computadora Sin Misterios 40+">
+<meta property="og:description" content="Aprende computadora, Word y Excel con mapas visuales que te muestran exactamente dónde hacer clic.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="img/hero.webp">
+<meta name="theme-color" content="#15345C">
+<link rel="preload" as="image" href="img/hero.webp">
+<script>
+/* ===== CONFIG ===== */
+window.OFFER = {
+  checkoutCompleto: "https://lastlink.com/p/C6E0F8D5B/checkout-payment/",
+  checkoutBasico: "https://lastlink.com/p/CEA002883/checkout-payment/",
+  valueCompleto: 7.00,
+  valueBasico: 3.75,
+  currency: "USD",
+  pixelId: ""                   // ID do Meta Pixel (vazio = desativado)
+};
+</script>
+<script>
+(function(){var id=window.OFFER.pixelId; if(!id) return;
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init',id);fbq('track','PageView');})();
+</script>
+<style>
+:root{
+  --radius:14px;
+  --bg:#ffffff; --fg:#1f3a5f; --primary:#2463A6; --navy:#15345C; --soft:#EAF4FF;
+  --success:#168A57; --urgent:#F59E0B; --urgent-fg:#3a2a06; --muted:#5b6b82; --border:#d9e3ef;
+  --shadow:0 6px 24px -12px rgba(21,52,92,.28);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{background:var(--bg);color:var(--fg);font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:18px;line-height:1.55;overflow-x:hidden}
+h1,h2,h3,h4{color:var(--navy);line-height:1.2;font-weight:800}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:768px;margin:0 auto;padding:56px 20px}
+.soft{background:var(--soft)}
+.navy{background:var(--navy)}
+.center{text-align:center}
+.muted{color:var(--muted)}
+.urgent-bar{background:var(--urgent);color:var(--urgent-fg);font-weight:800;text-align:center;padding:10px 16px;font-size:15px}
+.badge{display:inline-block;background:var(--navy);color:#fff;border-radius:999px;padding:6px 16px;font-size:12px;font-weight:800;letter-spacing:.12em}
+.hero h1{margin-top:20px;font-size:1.15rem;line-height:1.35}
+.hl{color:var(--primary)}
+.eyebrow{text-align:center;color:var(--primary);font-weight:800;text-transform:uppercase;letter-spacing:.12em;font-size:14px;margin-bottom:8px}
+h2.t{text-align:center;font-size:1.75rem}
+.btn-cta{display:flex;width:100%;max-width:448px;min-height:60px;margin:32px auto 0;align-items:center;justify-content:center;text-align:center;padding:16px 20px;border-radius:var(--radius);background:var(--success);color:#fff;font-weight:800;font-size:1.05rem;box-shadow:0 8px 20px -10px var(--success);transition:transform .15s,filter .15s}
+.btn-cta:hover{filter:brightness(1.06);transform:translateY(-1px)}
+.btn-outline{display:flex;width:100%;min-height:56px;margin-top:24px;align-items:center;justify-content:center;border-radius:var(--radius);border:2px solid var(--primary);color:var(--primary);font-weight:800}
+.btn-outline:hover{background:var(--soft)}
+.note{margin-top:12px;font-size:14px;color:var(--muted);text-align:center}
+.checks{list-style:none;display:grid;gap:12px}
+.checks li{display:flex;gap:12px;align-items:flex-start}
+.ck{width:20px;height:20px;flex:none;margin-top:4px}
+.card{background:#fff;border-radius:calc(var(--radius) + 4px);box-shadow:var(--shadow)}
+.ex{border:2px solid rgba(36,99,166,.2);padding:20px;border-radius:calc(var(--radius) + 8px);background:#fff;box-shadow:var(--shadow)}
+.ex h3{font-size:1.5rem}
+.ex ol{list-style:none;margin-top:24px;display:grid;gap:12px}
+.ex ol li{display:flex;gap:12px;font-weight:700;color:var(--navy)}
+.num{width:28px;height:28px;flex:none;border-radius:50%;background:var(--primary);color:#fff;font-size:14px;font-weight:800;display:flex;align-items:center;justify-content:center}
+.car{margin-top:20px}
+.car-view{position:relative;overflow:hidden;border-radius:10px}
+.car-track{display:flex;transition:transform .3s}
+.car-track img{width:100%;flex:none;object-fit:contain}
+.car-btn{position:absolute;top:50%;transform:translateY(-50%);width:44px;height:44px;border:0;border-radius:50%;background:var(--primary);color:#fff;font-size:26px;font-weight:800;cursor:pointer;box-shadow:var(--shadow);line-height:1}
+.car-prev{left:8px}.car-next{right:8px}
+.dots{display:flex;justify-content:center;gap:8px;margin-top:12px}
+.dot{height:12px;width:12px;border-radius:999px;border:0;background:var(--border);cursor:pointer;transition:all .2s}
+.dot.on{width:32px;background:var(--primary)}
+.grid2{display:grid;gap:16px}
+.box{display:flex;gap:12px;padding:20px;border-radius:var(--radius)}
+.box b{color:var(--navy)}
+.bordered{border:1px solid var(--border);background:#fff}
+.kit{padding:24px}
+.kit .ic{font-size:2.25rem}
+.kit h3{margin-top:12px;font-size:1.25rem}
+.kit .sub{margin-top:4px;font-weight:700;color:var(--primary)}
+.kit .checks{margin-top:16px;font-size:16px}
+.urg h2{color:#fff;font-size:1.6rem}
+.timer{display:flex;justify-content:center;gap:12px;margin-top:32px}
+.timer div{width:80px;border-radius:var(--radius);background:var(--urgent);color:var(--urgent-fg);padding:12px 0}
+.timer b{display:block;font-size:1.9rem;font-weight:800;font-variant-numeric:tabular-nums}
+.timer span{font-size:12px;font-weight:700;text-transform:uppercase}
+.urg p{max-width:576px;margin:24px auto 0;color:rgba(255,255,255,.85)}
+.ideal{list-style:none;display:grid;gap:12px;margin-top:32px}
+.ideal li{display:flex;align-items:center;gap:16px;padding:16px;border:1px solid var(--border);border-radius:var(--radius);background:#fff}
+.ideal b{font-size:1.5rem;color:var(--primary)}
+.bonus{padding:20px}
+.bonus h4{margin-top:16px;font-size:1.25rem}
+.bonus .free{margin-top:4px;font-weight:700;color:var(--success)}
+.bonus .d{margin-top:8px;font-size:16px;color:var(--muted)}
+.bonus .checks{margin-top:16px;font-size:16px}
+.plans{display:grid;gap:24px;margin-top:40px;align-items:start}
+.plan{position:relative;padding:24px;border-radius:calc(var(--radius) + 8px);background:#fff}
+.plan.main{border:4px solid var(--primary);box-shadow:var(--shadow)}
+.plan.alt{border:1px solid var(--border)}
+.tag{position:absolute;top:-16px;left:50%;transform:translateX(-50%);background:var(--urgent);color:var(--urgent-fg);border-radius:999px;padding:4px 16px;font-size:14px;font-weight:800;white-space:nowrap}
+.plan h3{text-align:center;font-size:1.5rem}
+.plan .im{max-width:320px;margin:16px auto 0}
+.price{text-align:center;font-weight:800;color:var(--navy)}
+.plan .checks{margin-top:24px;font-size:16px}
+.x{width:20px;text-align:center;font-weight:700;flex:none}
+.guar{border:2px solid rgba(22,138,87,.4);border-radius:calc(var(--radius) + 8px);padding:24px;text-align:center}
+.steps{list-style:none;display:grid;gap:12px;margin-top:32px}
+.steps li{display:flex;align-items:center;gap:16px;padding:16px;background:var(--soft);border-radius:var(--radius)}
+.steps b{font-size:1.5rem;color:var(--primary)}
+details{background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);padding:20px}
+summary{list-style:none;display:flex;justify-content:space-between;align-items:center;gap:16px;font-weight:700;color:var(--navy);cursor:pointer}
+summary::-webkit-details-marker{display:none}
+summary span{font-size:1.5rem;color:var(--primary);transition:transform .2s}
+details[open] summary span{transform:rotate(45deg)}
+details p{margin-top:12px;color:var(--muted)}
+.faq{display:grid;gap:12px;margin-top:32px}
+.final{padding:48px 20px;text-align:center}
+.final .u{font-weight:800;color:var(--urgent)}
+.final small{display:block;margin-top:32px;font-size:14px;color:rgba(255,255,255,.7)}
+@media(min-width:768px){
+  .wrap{padding:80px 20px}
+  .hero h1{font-size:1.875rem}
+  h2.t{font-size:2.25rem}
+  .urg h2{font-size:2.25rem}
+  .grid2{grid-template-columns:1fr 1fr}
+  .plans{grid-template-columns:1.15fr 1fr}
+  .ex{padding:32px}
+  .badge{font-size:14px}
+  .urgent-bar{font-size:16px}
+}
+</style>
+</head>
+<body>
+<main>
+<div class="urgent-bar">⏳ Oferta por tiempo limitado — <span class="tt">05:00</span></div>
+
+<!-- HERO -->
+<section class="soft hero">
+  <div class="wrap center" style="padding-top:32px">
+    <p class="badge">COMPUTADORA SIN MISTERIOS 40+</p>
+    <h1>Más de 150 mapas visuales para aprender a usar la computadora, Word, Excel y las hojas de cálculo, con el paso a paso que te muestra <span class="hl">exactamente dónde hacer clic</span> — aunque hoy solo sepas lo básico.</h1>
+    <div style="max-width:576px;margin:32px auto 0"><img src="img/hero.webp" alt="Computadora Sin Misterios 40+" width="1000" height="750" fetchpriority="high" style="aspect-ratio:4/3;object-fit:contain;border-radius:10px;width:100%"></div>
+    <ul class="checks" style="max-width:448px;margin:32px auto 0;text-align:left" data-checks>
+      <li>Aprende Word, Excel, el teclado, los archivos y mucho más</li>
+      <li>Miras, entiendes y lo haces al instante — sin clases largas</li>
+      <li>Consulta los mapas cuando quieras, a tu propio ritmo</li>
+    </ul>
+    <a class="btn-cta checkout" data-plan="completo" href="#planos">QUIERO APRENDER A USAR LA COMPUTADORA</a>
+    <p class="note">Acceso inmediato por e-mail y WhatsApp después de confirmar la compra.</p>
+  </div>
+</section>
+
+<!-- EJEMPLOS -->
+<section>
+  <div class="wrap">
+    <h2 class="t">Un mapa visual para cada tarea que necesitas hacer en la computadora</h2>
+    <p class="center muted" style="margin-top:12px">Mira algunos ejemplos abajo.</p>
+    <div id="examples" style="display:grid;gap:48px;margin-top:40px"></div>
+  </div>
+</section>
+
+<!-- QUE TIENE CADA MAPA -->
+<section class="soft">
+  <div class="wrap">
+    <h2 class="t">Qué tiene cada mapa</h2>
+    <div class="grid2" style="margin-top:32px">
+      <div class="box card"><svg class="ck"></svg><p><b>Paso a paso visual</b> — ves exactamente dónde hacer clic.</p></div>
+      <div class="box card"><svg class="ck"></svg><p><b>Lenguaje sencillo</b> — sin términos técnicos complicados.</p></div>
+      <div class="box card"><svg class="ck"></svg><p><b>Consulta rápida</b> — encuentras al instante la tarea que necesitas.</p></div>
+      <div class="box card"><svg class="ck"></svg><p><b>Úsalo todas las veces que quieras</b> — es tuyo, para siempre.</p></div>
+    </div>
+    <a class="btn-cta" href="#planos">QUIERO APRENDER A USAR LA COMPUTADORA</a>
+  </div>
+</section>
+
+<!-- BENEFICIOS -->
+<section>
+  <div class="wrap">
+    <p class="eyebrow">Beneficios</p>
+    <h2 class="t">Por qué tener tu Computadora Sin Misterios 40+</h2>
+    <div style="display:grid;gap:16px;margin-top:32px">
+      <div class="box bordered"><svg class="ck"></svg><p><b>Deja de trabarte frente a la pantalla de la computadora</b> cuando necesitas crear un documento, llenar una hoja de cálculo o encontrar un archivo.</p></div>
+      <div class="box bordered"><svg class="ck"></svg><p><b>Aprende a usar Word y Excel en las tareas del día a día</b>, aunque hoy solo sepas lo básico.</p></div>
+      <div class="box bordered"><svg class="ck"></svg><p><b>Entiende para qué sirven las teclas, los atajos y las funciones de la computadora</b>, sin tener que memorizar un montón de comandos.</p></div>
+      <div class="box bordered"><svg class="ck"></svg><p><b>Gana confianza para hacer tus tareas sin depender de compañeros o familiares</b> por cada duda que aparece.</p></div>
+      <div class="box bordered"><svg class="ck"></svg><p><b>Siéntete más preparada para las oportunidades de trabajo</b> que piden conocimientos básicos de computación.</p></div>
+    </div>
+    <a class="btn-cta" href="#planos">QUIERO APRENDER A USAR LA COMPUTADORA</a>
+  </div>
+</section>
+
+<!-- CONTENIDO DEL KIT -->
+<section class="soft">
+  <div class="wrap">
+    <p class="eyebrow">Contenido del kit</p>
+    <h2 class="t">Todo lo que vas a aprender con COMPUTADORA SIN MISTERIOS 40+</h2>
+    <p class="center muted" style="margin-top:12px">Mapas visuales organizados por tarea, para que aprendas exactamente lo que necesitas y los consultes cada vez que se te olvide algo.</p>
+    <div id="kit" class="grid2" style="margin-top:40px;gap:20px"></div>
+  </div>
+</section>
+
+<!-- URGENCIA -->
+<section class="navy urg">
+  <div class="wrap center">
+    <h2>¿Hasta cuándo vas a seguir trabándote en la computadora, cuando podrías resolverlo todo tú sola?</h2>
+    <div class="timer" aria-live="polite"><div><b class="tm">05</b><span>min</span></div><div><b class="ts">00</b><span>seg</span></div></div>
+    <p>El precio promocional con los 4 bonos incluidos es válido solo por tiempo limitado. Cuando el contador llegue a cero, los bonos salen de la oferta y el precio vuelve a la normalidad. Si lo vienes postergando, hoy es el mejor día para resolverlo.</p>
+    <a class="btn-cta" href="#planos">QUIERO APRENDER A USAR LA COMPUTADORA</a>
+  </div>
+</section>
+
+<!-- IDEAL PARA TI -->
+<section>
+  <div class="wrap">
+    <p class="eyebrow">Hecho para ti</p>
+    <h2 class="t">Ideal para ti que...</h2>
+    <ul class="ideal">
+      <li><b>01</b><span>Sabes lo básico de la computadora, pero te trabas cuando tienes que hacer algo diferente</span></li>
+      <li><b>02</b><span>Necesitas usar Word y Excel y no sabes por dónde empezar</span></li>
+      <li><b>03</b><span>Dependes de hijos, nietos o compañeros para resolver tareas en la computadora</span></li>
+      <li><b>04</b><span>Quieres aprender sin tener que hacer un curso largo</span></li>
+      <li><b>05</b><span>Estás pensando en volver a trabajar y sabes que necesitas computación básica</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- TODO LO QUE RECIBES -->
+<section class="soft">
+  <div class="wrap">
+    <h2 class="t">Todo lo que vas a recibir</h2>
+    <div style="max-width:448px;margin:32px auto 0"><img src="img/hero.webp" alt="Todo lo que vas a recibir" loading="lazy" decoding="async" style="aspect-ratio:4/3;object-fit:contain;border-radius:10px;width:100%"></div>
+    <p class="center" style="margin-top:24px;font-size:1.25rem;font-weight:800;color:var(--navy)">+150 mapas visuales</p>
+    <ul class="checks" style="max-width:512px;margin:16px auto 0" data-checks>
+      <li>+150 mapas visuales organizados por tarea (computadora, Word, Excel y hojas de cálculo, celular y WhatsApp)</li>
+      <li>Material para aprender Y para consultar — vuelves cada vez que lo necesites</li>
+      <li>Acceso de por vida, a tu ritmo</li>
+      <li>Lenguaje sencillo, sin rodeos</li>
+    </ul>
+    <h3 class="center" style="margin-top:56px;font-size:1.6rem">+ 4 Bonos exclusivos</h3>
+    <div id="bonus" class="grid2" style="margin-top:32px;gap:20px"></div>
+  </div>
+</section>
+
+<!-- PLANES -->
+<section id="planos">
+  <div class="wrap">
+    <p class="eyebrow">Elige tu kit</p>
+    <h2 class="t">¿Cuál es el kit ideal para ti?</h2>
+    <div class="plans">
+      <div class="plan main">
+        <span class="tag">El más vendido</span>
+        <h3>Kit Completo</h3>
+        <div class="im"><img src="img/kit-completo.webp" alt="Kit Completo" loading="lazy" decoding="async" style="aspect-ratio:4/3;object-fit:contain;border-radius:10px;width:100%"></div>
+        <p class="center" style="margin-top:16px;font-weight:700;color:var(--success)">4 bonos incluidos</p>
+        <p class="price" style="font-size:3rem">US$ 7.00</p>
+        <p class="center muted" style="font-size:14px">pago único · sin mensualidades</p>
+        <ul class="checks" id="plan-completo" data-checks>
+          <li>Pack con +150 mapas visuales completos</li>
+          <li>Mapas de la Computadora completos (teclado, atajos, carpetas, memoria USB y más)</li>
+          <li>Mapas de Word completos (crear, dar formato, guardar en PDF e imprimir)</li>
+          <li>Mapas de Excel y Hojas de Cálculo completos (celdas, tablas, guardar y consultar)</li>
+          <li>Mapas del Celular y WhatsApp completos (archivos, WhatsApp Web y más)</li>
+        </ul>
+        <a class="btn-cta checkout" data-plan="completo" href="#planos" style="margin-top:24px">Quiero el Kit Completo ahora</a>
+        <p class="note" style="margin-top:8px">Acceso inmediato por WhatsApp o e-mail</p>
+      </div>
+      <div class="plan alt">
+        <h3 style="font-size:1.25rem">Kit Básico</h3>
+        <div class="im"><img src="img/kit-basico.webp" alt="Kit Básico" loading="lazy" decoding="async" style="aspect-ratio:4/3;object-fit:contain;border-radius:10px;width:100%"></div>
+        <p class="price" style="margin-top:16px;font-size:2.25rem">US$ 3.75</p>
+        <p class="center muted" style="font-size:14px">pago único · sin mensualidades</p>
+        <ul class="checks" style="margin-top:20px;font-size:16px">
+          <li><svg class="ck"></svg>Pack con +150 mapas visuales</li>
+          <li><svg class="ck"></svg>Acceso de por vida</li>
+          <li class="muted"><span class="x">✕</span>Sin los 4 bonos exclusivos</li>
+        </ul>
+        <a class="btn-outline checkout" data-plan="basico" href="#planos">Quiero el Kit Básico</a>
+        <p class="note" style="margin-top:8px">Acceso inmediato por WhatsApp o e-mail</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GARANTIA + COMO FUNCIONA -->
+<section class="soft">
+  <div class="wrap">
+    <div class="guar card">
+      <div style="font-size:3rem">🛡️</div>
+      <h3 style="margin-top:12px;font-size:1.5rem">Garantía de por Vida</h3>
+      <p class="muted" style="margin-top:8px">Sin plazo, sin burocracia.</p>
+    </div>
+    <h2 class="t" style="margin-top:56px">Cómo funciona después de la compra</h2>
+    <ol class="steps" style="--soft:#fff">
+      <li><b>01</b><span>Finalizas la compra en un entorno seguro</span></li>
+      <li><b>02</b><span>Recibes el acceso por e-mail y WhatsApp al instante</span></li>
+      <li><b>03</b><span>Abres el mapa que necesitas y lo resuelves al momento, en la computadora o en el celular</span></li>
+    </ol>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section>
+  <div class="wrap">
+    <p class="eyebrow">Preguntas frecuentes</p>
+    <h2 class="t">¿Te quedó alguna duda?</h2>
+    <div class="faq" id="faq"></div>
+  </div>
+</section>
+
+<!-- FINAL -->
+<section class="navy">
+  <div class="final">
+    <p class="u">⏳ Oferta por tiempo limitado — <span class="tt">05:00</span></p>
+    <a class="btn-cta" href="#planos">QUIERO APRENDER A USAR LA COMPUTADORA</a>
+    <small>© Computadora Sin Misterios 40+ — Todos los derechos reservados</small>
+  </div>
+</section>
+</main>
+
+<script>
+var CK='<svg class="ck" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#168A57"/><path d="M7 12.5l3.2 3L17 9" stroke="#fff" stroke-width="2.4" fill="none" stroke-linecap="round"/></svg>';
+function esc(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;')}
+function checks(items){return '<ul class="checks">'+items.map(function(t){return '<li>'+CK+'<span>'+t+'</span></li>'}).join('')+'</ul>'}
+
+/* Ejemplos (carrusel por categoría) */
+var G=[
+ {t:"💻 Mapas de la Computadora",imgs:["ex-comp-1","ex-comp-2"],items:["Descubre para qué sirven las teclas principales del teclado.","Crea, encuentra y organiza carpetas y archivos.","Descarga archivos de internet y descubre dónde encontrarlos.","Aprende los atajos principales: copiar, pegar, deshacer y guardar.","Usa la memoria USB, la impresora y otras funciones de la computadora."]},
+ {t:"📄 Mapas de Word",imgs:["ex-word-1","ex-word-2"],items:["Crea un documento en Word desde cero.","Escribe, corrige y edita textos.","Da formato a letras, títulos y párrafos.","Guarda documentos y convierte archivos a PDF.","Abre, encuentra e imprime documentos."]},
+ {t:"📊 Mapas de Excel y Hojas de Cálculo",imgs:["ex-excel-1","ex-excel-2"],items:["Aprende lo básico de las hojas de cálculo para llenar información.","Entiende filas, columnas y celdas.","Organiza la información en tablas.","Edita y guarda tus hojas de cálculo.","Abre y consulta las hojas de cálculo que recibes."]},
+ {t:"📱 Mapas del Celular y WhatsApp",imgs:["ex-cel-1","ex-cel-2"],items:["Encuentra archivos, fotos y descargas en el celular.","Escanea documentos con la cámara.","Envía documentos y archivos por WhatsApp.","Usa WhatsApp también en la computadora.","Comparte fotos, enlaces y ubicación."]}
+];
+document.getElementById('examples').innerHTML=G.map(function(g,gi){
+ return '<div class="ex"><h3>'+g.t+'</h3><div class="car" data-car><div class="car-view"><div class="car-track">'+
+ g.imgs.map(function(s,k){return '<img src="img/'+s+'.webp" alt="'+esc(g.t)+' '+(k+1)+'" loading="lazy" decoding="async">'}).join('')+
+ '</div><button type="button" class="car-btn car-prev" aria-label="Imagen anterior">‹</button><button type="button" class="car-btn car-next" aria-label="Imagen siguiente">›</button></div><div class="dots">'+
+ g.imgs.map(function(_,k){return '<button type="button" class="dot'+(k?'':' on')+'" aria-label="Imagen '+(k+1)+'"></button>'}).join('')+
+ '</div></div><ol>'+g.items.map(function(t,i){return '<li><span class="num">'+(i+1)+'</span><span>'+t+'</span></li>'}).join('')+'</ol></div>';
+}).join('');
+[].forEach.call(document.querySelectorAll('[data-car]'),function(c){
+ var tr=c.querySelector('.car-track'),dots=c.querySelectorAll('.dot'),n=dots.length,i=0,x0=null;
+ function go(k){i=(k+n)%n;tr.style.transform='translateX(-'+(i*100)+'%)';[].forEach.call(dots,function(d,j){d.classList.toggle('on',j===i)})}
+ c.querySelector('.car-prev').onclick=function(){go(i-1)};c.querySelector('.car-next').onclick=function(){go(i+1)};
+ [].forEach.call(dots,function(d,j){d.onclick=function(){go(j)}});
+ var v=c.querySelector('.car-view');v.addEventListener('touchstart',function(e){x0=e.touches[0].clientX},{passive:true});
+ v.addEventListener('touchend',function(e){if(x0===null)return;var dx=e.changedTouches[0].clientX-x0;if(Math.abs(dx)>40)go(i+(dx<0?1:-1));x0=null});
+});
+
+/* Contenido del kit */
+var K=[
+ {ic:"💻",t:"Mapas de la Computadora",s:"Aprende a usar la computadora sin miedo a equivocarte",i:["Conocer las teclas principales del teclado","Usar atajos para copiar, pegar, guardar y deshacer","Crear y organizar carpetas","Copiar, mover y cambiar el nombre de archivos","Encontrar los archivos descargados","Usar la memoria USB","Guardar e imprimir documentos","Y mucho más"]},
+ {ic:"📄",t:"Mapas de Word",s:"Crea y edita documentos sin complicaciones",i:["Abrir y crear documentos","Escribir y corregir textos","Cambiar la fuente, el tamaño y el color de las letras","Usar negrita, alineación y espaciado","Organizar títulos y párrafos","Guardar documentos en PDF","Imprimir y compartir archivos","Y mucho más"]},
+ {ic:"📊",t:"Mapas de Excel y Hojas de Cálculo",s:"Aprende a llenar y organizar información en hojas de cálculo",i:["Entender filas, columnas y celdas","Llenar y editar información","Organizar datos en tablas","Guardar y abrir hojas de cálculo","Consultar hojas de cálculo recibidas","Llenar formularios en línea","Y mucho más"]},
+ {ic:"📱",t:"Mapas del Celular y WhatsApp",s:"Contenido extra: resuelve también desde el celular",i:["Encontrar los archivos descargados","Escanear documentos con la cámara","Enviar y descargar archivos en WhatsApp","Usar WhatsApp Web en la computadora","Compartir fotos, enlaces y ubicación","Y mucho más"]}
+];
+document.getElementById('kit').innerHTML=K.map(function(c){return '<div class="card kit"><div class="ic">'+c.ic+'</div><h3>'+c.t+'</h3><p class="sub">'+c.s+'</p>'+checks(c.i)+'</div>'}).join('');
+
+/* Bonos */
+var B=[
+ {img:"bonus-mercado",t:"Vuelve a Trabajar 40+",d:"Guía práctica para usar tus nuevas habilidades digitales en la búsqueda de una oportunidad laboral",i:["Enviar tu currículum","Participar en entrevistas por videollamada","Registrarte en bolsas de trabajo en línea","Prepararte digitalmente para una entrevista","Participar en procesos de selección en línea","+ 8 tareas"]},
+ {img:"bonus-pdf",t:"PDF Sin Misterios",d:"Guía visual para no volver a trabarte con documentos y PDF",i:["Convertir una foto en PDF","Unir varias páginas","Enviar un PDF desde el celular","Escanear tu identificación y otros documentos","Compartir PDF","+ 13 tareas"]},
+ {img:"bonus-email",t:"E-mail Profesional desde Cero",d:"Aprende a usar el e-mail con seguridad y naturalidad",i:["Crear una cuenta de e-mail","Adjuntar tu currículum","Recuperar la contraseña","Responder a todos","Organizar la bandeja de entrada","+ 13 tareas"]},
+ {img:"bonus-seguranca",t:"Seguridad Digital 40+",d:"Reconoce las estafas y protege tus datos",i:["Reconocer estafas por WhatsApp","Crear contraseñas seguras","Reconocer enlaces sospechosos","Activar la verificación en dos pasos","Reconocer falsas ofertas de trabajo","+ 10 tareas"]}
+];
+document.getElementById('bonus').innerHTML=B.map(function(b){return '<div class="card bonus"><img src="img/'+b.img+'.webp" alt="'+esc(b.t)+'" loading="lazy" decoding="async" style="aspect-ratio:3/4;object-fit:contain;border-radius:10px;width:100%"><h4>🎁 '+b.t+'</h4><p class="free">Incluido GRATIS en el Kit Completo</p><p class="d">'+b.d+'</p>'+checks(b.i)+'</div>'}).join('');
+var pc=document.getElementById('plan-completo');
+B.forEach(function(b){var li=document.createElement('li');li.textContent='🎁 Bono: '+b.t;pc.appendChild(li)});
+var li=document.createElement('li');li.textContent='Acceso de por vida';pc.appendChild(li);
+
+/* FAQ */
+var F=[
+ ["¿Necesito saber de computación para usarlo?","No. Los mapas están hechos para quien solo sabe lo básico. Cada paso te muestra exactamente dónde hacer clic."],
+ ["¿Es un curso en video?","No. Son mapas visuales con el paso a paso en imágenes. Miras, entiendes y lo haces al instante — sin clases largas."],
+ ["¿Funciona en el celular y en la computadora?","Sí. Puedes abrir los mapas en el celular, la tablet o la computadora y consultarlos mientras haces la tarea."],
+ ["¿Cómo recibo el material?","Justo después de confirmar la compra recibes el acceso por e-mail y WhatsApp."],
+ ["¿El acceso tiene fecha de vencimiento?","No. El acceso es de por vida. El material es tuyo para siempre."],
+ ["¿Los bonos son realmente gratis?","Sí. En el Kit Completo los 4 bonos están incluidos sin costo adicional, mientras la oferta esté activa."],
+ ["¿Puedo usarlo como material de consulta?","Sí. Además de aprender, puedes volver a los mapas cada vez que se te olvide cómo hacer algo."],
+ ["¿Cómo funciona la garantía?","La garantía es de por vida, sin plazo y sin burocracia. Si no te gusta, solo pide el reembolso."],
+ ["¿El pago es seguro?","Sí. El pago se procesa en un entorno seguro, a través de una plataforma de pagos confiable."]
+];
+document.getElementById('faq').innerHTML=F.map(function(f){return '<details><summary>'+f[0]+'<span>+</span></summary><p>'+f[1]+'</p></details>'}).join('');
+
+/* Checks estáticos */
+[].forEach.call(document.querySelectorAll('svg.ck:not([viewBox])'),function(s){s.outerHTML=CK});
+[].forEach.call(document.querySelectorAll('[data-checks] > li'),function(l){if(!l.querySelector('svg'))l.innerHTML=CK+'<span>'+l.innerHTML+'</span>'});
+
+/* Temporizador 5 min (persiste al recargar, reinicia al llegar a cero) */
+(function(){var KEY='csm40_timer_start',D=300,start=null;
+ try{var s=Number(localStorage.getItem(KEY));if(s>0&&s<=Date.now())start=s}catch(e){}
+ if(!start){start=Date.now();try{localStorage.setItem(KEY,String(start))}catch(e){}}
+ var p=function(n){return String(n).padStart(2,'0')};
+ function tick(){var el=Math.floor((Date.now()-start)/1000)%D,left=D-el;var m=Math.floor(left/60),s=left%60;
+  [].forEach.call(document.querySelectorAll('.tt'),function(e){e.textContent=p(m)+':'+p(s)});
+  [].forEach.call(document.querySelectorAll('.tm'),function(e){e.textContent=p(m)});
+  [].forEach.call(document.querySelectorAll('.ts'),function(e){e.textContent=p(s)});}
+ tick();setInterval(tick,1000);})();
+
+/* Checkout: links + Pixel InitiateCheckout + pasar UTMs */
+function withParams(u){var q=location.search;if(!q)return u;return u+(u.indexOf('?')>-1?'&':'?')+q.slice(1)}
+[].forEach.call(document.querySelectorAll('a.checkout'),function(a){
+ var plan=a.getAttribute('data-plan'),url=plan==='basico'?OFFER.checkoutBasico:OFFER.checkoutCompleto;
+ if(!url||url.charAt(0)==='#')return; a.href=url;
+ a.addEventListener('click',function(e){e.preventDefault();
+  try{if(window.fbq)fbq('track','InitiateCheckout',{value:plan==='basico'?OFFER.valueBasico:OFFER.valueCompleto,currency:OFFER.currency})}catch(x){}
+  var go=withParams(url); if(window.redirectWithParams){window.redirectWithParams(url)}else{location.href=go}});
+});
+</script>
+</body>
+</html>
